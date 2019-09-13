@@ -10,8 +10,7 @@ Licensed under the GNU General Public License version 3 or later. Some of the co
 Guix requires ```--privileged``` to run.
 
 ```bash
-docker run -ti --privileged bmpvieira/guix:pull
-guix-daemon --build-users-group=guix-builder &
+docker run -ti --privileged bmpvieira/guix
 guix pull
 ```
 
